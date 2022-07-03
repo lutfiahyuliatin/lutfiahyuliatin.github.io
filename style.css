@@ -65,3 +65,10 @@ p{margin:1.5em 0;transition:all .3s ease;}
 @keyframes heartMove {0%{transform: translateY(-10vh) ;} 100%{transform: translateY(100vh) ;}}
 
 .border {border-radius: 15%;}
+
+:root {
+--warna-bg: rgba(0, 0, 0, .7); 
+--warna-teks: white;
+--bingkai: 14px;
+--gaya-font: 'Josefin Sans', sans-serif;
+}
