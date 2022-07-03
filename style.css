@@ -66,7 +66,7 @@ p{margin:1.5em 0;transition:all .3s ease;}
 
 .border {border-radius: 15%;}
 
-:root {
+root {
 --warna-bg: rgba(0, 0, 0, .7); 
 --warna-teks: white;
 --bingkai: 14px;
