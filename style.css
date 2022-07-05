@@ -47,7 +47,7 @@ p{margin:1.5em 0;transition:all .3s ease;}
   from {opacity: 0;}
   to {opacity: 100;}
 }
-.button1{cursor:pointer;display:inline-flex;align-items:center; margin:0;margin:12px 0 12px 0;transition:all .3s ease;padding:10px;outline:0;border:0px solid white; border-radius:14px;line-height:15px;background:transparent;color:white;font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;z-index:1} 
+.button1{cursor:pointer;display:inline-flex;align-items:center; margin:0;margin:12px 0 12px 0;transition:all .3s ease;padding:10px;outline:0;border:1px solid white; border-radius:14px;line-height:15px;background:rgba(0, 0, 0, .7);color:white;font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;z-index:1} 
 
 
 .swal2-title{margin-right:20px;margin-left:20px;font-size:22px;text-align:center;padding:15px 30px 0 30px;}
