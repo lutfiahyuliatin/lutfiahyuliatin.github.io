@@ -144,7 +144,7 @@ function planKedua() {
   function play() {var audio = new Audio('' + linkmp3);audio.play();} const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
   function StartMarqueeL(){imglewat.style="opacity:1;height:100px;";var marquee = document.getElementById ("imglewat");marquee.start();}function StopMarqueeL(){var marquee = document.getElementById ("imglewat");marquee.stop();}StopMarqueeL(); function akhiran(){setTimeout(startmq,4000);bodyblur.style="opacity:.4;animation:none";beneranblur.style="-webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px)";wallpaper.style="transform: scale(1.6)";pergeseran.style="display:none";StartMarqueeL();idgeser.innerHTML = "";idkalimat.innerHTML = akhirkata2;idgeser.style = "opacity:1;transform: scale(1);font-size:16px;font-weight:400;margin:0 10px;margin-top:20px;";setTimeout(aksiakhir,800);}
   function startmq(){var marquee = document.getElementById ("palingakhir");marquee.start();}function stopmq(){var marquee = document.getElementById ("palingakhir");marquee.stop();}stopmq();
-  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send/?phone=628isinomer&text=" + pesanwhatsapp;}
+  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send/?phone=6285731626596&text=" + pesanwhatsapp;}
   var aa=0,akhirkata;akhirkata = "";function aksiakhir() {if(aa<akhirkata.length){idgeser.innerHTML += akhirkata.charAt(aa);aa++;setTimeout(aksiakhir,65);}
     if(aa==akhirkata.length){idkalimat.style = "opacity:1;transform: scale(1);font-size:16px;margin-top:15px";setTimeout(showpalingakhir,1100);}
    } function showpalingakhir(){palingakhir.style = "opacity:1;transform: scale(1);font-size:16px;margin-top:0px";setTimeout(tombol,4000);}
@@ -171,7 +171,7 @@ function planKedua() {
             akhirkata2 = "Because u have princip :";
             palingakhir.innerHTML = "If ideals is a painting, then education is the ink -Lutfiah Yuliatin ";
             
-            await swalst.fire('Tunggu');lanjut();
+            await swalst.fire('Wait Web Is Loading');lanjut();
         }
         pertama();
         
