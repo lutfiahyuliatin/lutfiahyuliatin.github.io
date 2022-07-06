@@ -153,12 +153,12 @@ function planKedua() {
 <script type="text/javascript">
        async function jawab(){
            var { value: jawaban } = await swals.fire({
-               title: 'Ini Pesan Diteruskan Ke Whatsapp Keduaku Pik Hehe', input: 'text', allowOutsideClick: false, showCancelButton: false,
+               title: 'Pesan Ini Diteruskan Ke Whatsapp Keduaku, Aku Gaberani Pake Yang Pertama Hehe', input: 'text', allowOutsideClick: false, showCancelButton: false,
            });
            if(jawaban && jawaban.length < 50){
            	window.jawaban = jawaban;pesanwhatsapp = jawaban;menuju();
            } else {
-               await swals.fire('Hmm Jangan Dikosongi Yaa Pik Bebas dah apa :)');
+               await swals.fire('Hmm Jangan Dikosongi Bebas Dah Apa :)');
            }
        }
         
