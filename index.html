@@ -155,10 +155,10 @@ function planKedua() {
            var { value: jawaban } = await swals.fire({
                title: 'Pesan Ini Diteruskan Ke Whatsapp Keduaku, Aku Gaberani Pake Yang Pertama Hehe', input: 'text', allowOutsideClick: false, showCancelButton: false,
            });
-           if(jawaban && jawaban.length < 50){
+           if(jawaban && jawaban.length < 51){
            	window.jawaban = jawaban;pesanwhatsapp = jawaban;menuju();
            } else {
-               await swals.fire('Hmm Jangan Dikosongi Bebas Dah Apa :)');
+               await swals.fire('Jangan Lebih Dari 50 Huruf Dan Jangan Dikosongi Bebas Dah Apa :)');
            }
        }
         
@@ -167,7 +167,7 @@ function planKedua() {
             fotonimasi.src = "https://i.postimg.cc/zXrSGb7x/marque.jpg";
        	 audio = new Audio('audio/audionew.mp3');
        
-            akhirkata = "Hari ini adalah hari dmn org yg begitu baik dilahirkan.HBD to u,trmksh atas ketulusan dan smgt yg km tunjukkan kpd dunia.Semoga dgn bertambahnya usia ini jdi pertanda bahwa Allah memberkahimu.Lupakan semua hal yg tak perlu km tunggu dan kejarlah yg ada di dpnmu dgn perjuangan dan smgt yg baru.Tetap smgt ibadah dan kuliah lalu raih semua niatmu. ";
+            akhirkata = "Hari ini adalah hari dmn org yg begitu baik dilahirkan.Hbd to u,trmksh atas ketulusan dan smgt yg km tunjukkan kpd dunia.Semoga dgn bertambahnya usia ini jdi pertanda bahwa Allah memberkahimu.Lupakan semua hal yg tak perlu km tunggu dan kejarlah yg ada di dpnmu dgn perjuangan dan smgt yg baru.Tetap smgt ibadah dan kuliah lalu raih semua niatmu. ";
             akhirkata2 = "Because u have princip :";
             palingakhir.innerHTML = "If ideals is a painting, then education is the ink -Lutfiah Yuliatin ";
             
